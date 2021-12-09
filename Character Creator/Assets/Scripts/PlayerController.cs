@@ -5,23 +5,13 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public SpriteRenderer ArmorRenderer;
-    public void SetWeapon (Sprite NewSprite)
+    public SpriteRenderer WeaponRenderer;
+    public void SetWeapon (Sprite WeaponSprite)
     {
-        WeaponRenderer.sprite = newSprite;
+        WeaponRenderer.sprite = WeaponSprite;
     }
     public void SetArmor(Sprite newSprite)
     {
         ArmorRenderer.sprite = newSprite;
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
