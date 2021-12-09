@@ -6,9 +6,9 @@ public class PlayerController : MonoBehaviour
 {
     public SpriteRenderer ArmorRenderer;
     public SpriteRenderer WeaponRenderer;
-    public void SetWeapon (Sprite WeaponSprite)
+    public void SetWeapon (Sprite newSprite)
     {
-        WeaponRenderer.sprite = WeaponSprite;
+        WeaponRenderer.sprite = newSprite;
     }
     public void SetArmor(Sprite newSprite)
     {
